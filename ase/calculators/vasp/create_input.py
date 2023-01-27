@@ -63,7 +63,6 @@ float_keys = [
     'nelect',  # total number of electrons
     'param1',  # Exchange parameter
     'param2',  # Exchange parameter
-    'pomass',  # mass of ions in am
     'pstress',  # add this stress to the stress tensor, and energy E = V *
     # pstress
     'sigma',  # broadening in eV
@@ -733,6 +732,7 @@ list_float_keys = [
     'paripot',  # ? floats | Undocumented parameter
     'smearings',  # ? floats | ismear,sigma smearing params to loop over
     'wanproj_e',  # 2 floats | Undocumented Wannier parameter
+    'pomass',  # mass of ions in am
 ]
 
 special_keys = [
